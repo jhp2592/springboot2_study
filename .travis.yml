@@ -43,6 +43,7 @@ deploy:
 
 before_install:
   - chmod +x gradlew
+  - gem 'aws-sdk', '~> 3'
 
 
 #CI 실행 완료시 메일로 알람

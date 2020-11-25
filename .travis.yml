@@ -43,8 +43,6 @@ deploy:
 
 before_install:
   - chmod +x gradlew
-  - require 'rubygems'
-  - require 'aws-sdk-s3'
 
 
 #CI 실행 완료시 메일로 알람
